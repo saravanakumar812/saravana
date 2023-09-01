@@ -223,7 +223,7 @@ class _LoginPageState extends State<LoginPage> {
       }
     } else {
       ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text("Black  field not allowed")));
+          .showSnackBar(SnackBar(content: Text("Black field not allowed")));
     }
     return data;
   }
